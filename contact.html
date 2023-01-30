@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        table{
+            border:1px solid black
+        }
+    </style>
+    <link rel="icon" href="google.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home Page</a>
+            <a href="research.html">Research Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section name="contactMethod">
+        <table>
+            <colgroup>
+                <col bgcolor="#DCDCDC">
+                <col bgcolor="#DCDCDC">
+                <col bgcolor="#DCDCDC">
+            </colgroup>
+            <caption>Contact Methods</caption>
+            
+            <tr>
+                <th>Phone Number</th>
+                <td>+1 858 568 2490</td>
+                <td>+86 15365124586</td>
+            </tr>
+                <th>Email</th>
+                <td colspan="2">x1yuan@ucsd.edu</td>
+            <tr>
+            
+            <template>
+                <tr>
+                    <th>WeChat</th>
+                    <td colspan="2">yx15365124586</td>
+                </tr>
+            </template>
+                
+            </tr>
+        </table>
+    </section>
+
+    <br>
+
+    <section name="contactForm">
+        <p>
+            Contact Form:
+        </p>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p>
+                    <label>Name:</label>
+                    <input type="text" name="name" required>
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input type="text" name="name" required>
+                </p>
+                
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Feedbacks</legend>
+            <div>
+                <label>Opinion on this webpage:</label>
+                <select name="opnion">
+                    <optgroup label="positive">
+                        <option value="very good">Very Good</option>
+                        <option value="good">Good</option>
+                        <option value="ok">It's okay</option>
+                    </optgroup>
+
+                    <optgroup label="negative">
+                        <option value="bad">Bad</option>
+                        <option value="very bad">Very Bad</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <label>I am</label>
+                <input type="text" list="professions">
+                <datalist id="professions">
+                    <option value="student">
+                    <option value="faculty">
+                </datalist>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Comments: </label>
+                <textarea rows="2">
+                </textarea>
+            </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Button: </legend>
+                <button type="submit"><svg height="10" width="20"></svg>submit<svg height="10" width="20"></svg></button>
+                <button type="clear"><svg height="10" width="20"></svg>clear<svg height="10" width="20"></svg></button>
+            </fieldset>
+        </form>
+    </section>
+
+
+    <br>
+
+    <footer>
+        <details>
+            <summary><i>All Rights Reserved by Xiu Yuan</i></summary>
+            <ol>
+                <li>Xiu Yuan has the right to update and modify the contents of this page</li>
+                <li>It is not allowed to copy from this page</li>
+            </ol>
+        </details>
+    </footer>
+</body>
+</html>
