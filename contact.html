@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <style>
-        table{
-            border:1px solid black
-        }
-    </style>
     <link rel="icon" href="google.ico">
 </head>
 <body>
@@ -23,7 +18,7 @@
     </header>
 
     <section name="contactMethod">
-        <table>
+        <table border="1">
             <colgroup>
                 <col bgcolor="#DCDCDC">
                 <col bgcolor="#DCDCDC">
@@ -90,21 +85,22 @@
                 </select>
             </div>
 
-            <label>I am
+            <div>
+                <label>I am</label>
                 <input type="text" list="professions">
                 <datalist id="professions">
                     <option value="student">
                     <option value="faculty">
                 </datalist>
-            </label>
+            </div>
 
             <br>
-            <br>
-            
-            <label>Comments:
+
+            <div>
+                <label>Comments: </label>
                 <textarea rows="2">
                 </textarea>
-            </label>
+            </div>
 
             </fieldset>
 
