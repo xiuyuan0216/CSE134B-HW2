@@ -24,6 +24,13 @@ h1{
     align-items: center;
     top:0;
     border-bottom:1px solid var(--border-color);
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+.nav-bar:hover{
+    height:10vh;
+
 }
 
 .nav-tag{
@@ -68,6 +75,10 @@ main{
         margin-left:5vw;
         width:80%;
         margin-right:5vw;
+    }
+
+    h1{
+        text-align: center;
     }
 }
 

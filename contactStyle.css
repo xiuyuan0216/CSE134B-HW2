@@ -1,0 +1,56 @@
+:root{
+    --head-color:navy;
+    --border-color:lightgrey;
+}
+
+*{
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+}
+
+h1{
+    font-size:2rem;
+    color:var(--head-color);
+}
+
+h2{
+    font-size:1.5rem;
+    color:var(--head-color);
+}
+
+
+.nav-bar{
+    position:fixed;
+    height:6vh;
+    width:100vw;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    top:0;
+    border-bottom:1px solid var(--border-color);
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+.nav-bar:hover{
+    height:10vh;
+
+}
+
+.nav-tag{
+    text-decoration: none;
+    color:grey;
+}
+
+
+#contact-method{
+    margin-top:8vh;
+    margin-left:8vw;
+    margin-right:8vw;
+}
+
+#contact-form{
+    margin-left:8vw;
+    margin-right: 8vw;
+}
