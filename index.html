@@ -9,30 +9,34 @@
         console.log("Welcome to Xiu Yuan's Webpage");
     </script>
     <link rel="icon" href="google.ico">
+    <link rel="stylesheet" href="indexStyle.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html">Home Page</a>
-            <a href="research.html">Research Experience</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <hr>
+    <nav class="nav-bar">
+        <input id="nav-bar-toggle" type="checkbox">
+        <a href="index.html" class="nav-tag">Home Page</a>
+        <a href="research.html" class="nav-tag">Research Experience</a>
+        <a href="contact.html" class="nav-tag">Contact</a>
+    </nav>
     </header>
 
     <main>
+        <div id="page-header">
+            <h1>Xiu Yuan</h1>
+            <em>Second-year Undergraduate Student at UCSD CSE</em>
+        </div>
         <picture>
-            <img src="face.jpg" alt="Image" width="200">
+            <img src="face.jpg" alt="Xiu's smile" id="image">
         </picture> 
 
         <aside>
             <code>
                 System.out.println("Hello World!");
             </code>
-            <span>---</span>
         </aside>
 
-        <h1>Xiu Yuan</h1>
+        <div id="information">
         <h2>Personal Information:</h2>
         <p>
             <strong>Date of Birth: Feb.16, 2003</strong>
@@ -41,15 +45,19 @@
             <b>Location: San Diego, CA</b>
         </p>
 
-        <code>
-            
-        </code>
+        <p id="bio">
+            I am a second-year undergraduate student majoring in Computer Science at University of California, San Diego.
+            I am passionate about computer vision, deep learning, robotics, 
+            and reinforcement learning. Hope to work with you in all kinds of projects!
+        </p>
+
+        </div>
     </main>
 
     <br>
-    <div>
+    <div id="education">
         <h2>Education Background:</h2>
-        <ul>
+        <ul id="education-list">
             <li>
             <p>
                 <em>University of California, San Diego</em>
@@ -58,8 +66,6 @@
 
             <pre>Major:   Computer Science</pre>
 
-            <pre>School website: </pre>
-            <iframe src="https://www.ucsd.edu" allowfullscreen></iframe>
 
             </li>
 
@@ -71,13 +77,6 @@
             </li>
         </ul>
     </div>
-
-    <section>
-        <h3>My Voice:</h3>
-        <audio controls>
-            <source src="ViaAlicante.m4a">
-        </audio>
-    </section>
 
     <br>
 

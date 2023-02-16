@@ -6,26 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research</title>
     <link rel="icon" href="google.ico">
-    <style>
-        canvas{
-            border:1px solid red
-        }
-    </style>
+    <link rel="stylesheet" href="researchStyle.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html">Home Page</a>
-            <a href="research.html">Research Experience</a>
-            <a href="contact.html">Contact</a>
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-tag">Home Page</a>
+            <a href="research.html" class="nav-tag">Research Experience</a>
+            <a href="contact.html" class="nav-tag">Contact</a>
         </nav>
         <hr>
     </header>
 
-    <ul>
+    <main>
+    <h1>Research Experience</h1>
+    <ul id="research-list">
         <li>
             <P>
-                <i>Research Group Member at Baidu Autonomous Driving Dept</i>
+                <i><strong>Research Group Member at Baidu Autonomous Driving Dept</strong></i>
             </P>
             <ol>
                     <li> Designed classical algorithm, volumetric 
@@ -37,34 +35,30 @@
                     </li>
             </ol>
 
-            <template>
-                Research Paper Link released here.
-            </template>
 
         </li>
 
         <li>
+            <video src="sunlight.mp4" controls id="vid"></video>
             <p>
-                <i>Research Assistant at Nanjing Unversity</i>
+                <i><strong>Research Assistant at Nanjing Unversity</strong></i>
             </p>
-            <p>
+            <p id="sunlight-tracker">
                 Designed a sunlight tracker that can automatically change its vertical and horizontal position
             </p>
-            <video src="sunlight.mp4" width="300" controls></video>
         </li>
 
-        <li>
-            <i>Robotic Learning Research (on-going)</i>
-            <figure>
-                <img src="robot.jpg" width="250">
-                <figcaption>An Robot Arm</figcaption>
-            </figure>
+        <li id="robot">
 
+            <div>
+            <i><strong>Robotic Learning Research (on-going)</strong></i>
             <p>More pictures to come !</p>
-            <canvas width="200" height="100">To Come</canvas>
+            </div>
+
+
         </li>
     </ul>
-
+    </main>
     <br>
 
     <footer>
