@@ -181,6 +181,10 @@ h2{
         display:flex;
         flex-direction: column;
     }
+
+    #bio{
+        text-align: left;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -192,6 +196,10 @@ h2{
     #education-list{
         display:flex;
         flex-direction: column;
+    }
+
+    #bio{
+        text-align: left;
     }
 
 }
