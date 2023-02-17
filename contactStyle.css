@@ -104,7 +104,7 @@ caption{
 }
 
 
-@media screen and (max-width:700px){
+@media screen and (max-width:650px){
     *{
         font-size:10pt;
         text-align:left;
@@ -126,6 +126,10 @@ caption{
         gap:20px;
         align-items:center;
         justify-content: space-around;
+    }
+
+    .button{
+        min-width: 80px;
     }
 
     
