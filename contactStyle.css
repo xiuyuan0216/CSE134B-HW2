@@ -48,9 +48,86 @@ h2{
     margin-top:8vh;
     margin-left:8vw;
     margin-right:8vw;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5vh;
 }
 
 #contact-form{
     margin-left:8vw;
     margin-right: 8vw;
+}
+
+#contact-table{
+    background-color: var(--border-color);
+    text-align: center;
+    border-radius: 6px;
+}
+
+#feedback{
+    display:flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+#personal{
+    display:flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+#button-list{
+    display:flex;
+    justify-content: space-around;
+}
+
+legend{
+    font-style: italic;
+}
+
+.button{
+    height:50%;
+    width:20%;
+    border-radius: 8px;
+    background-image: linear-gradient(160deg, #0093E9 50%, #80D0C7 100%);
+    text-align: center;
+}
+
+caption{
+    text-align: center;
+}
+
+
+@media screen and (max-width:700px){
+    *{
+        font-size:10pt;
+        text-align:left;
+    }
+
+    h1, h2{
+        text-align: center;
+    }
+
+    #personal{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #feedback{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        align-items:center;
+        justify-content: space-around;
+    }
+
+    
+}
+
+
+@media screen and (max-width:1000px){
+    *{
+        font-size:11pt;
+        text-align:left;
+    }
 }

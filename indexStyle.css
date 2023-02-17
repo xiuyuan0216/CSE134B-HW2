@@ -37,13 +37,13 @@
     display: none;
 }
 
-#image{
+.image{
     width:30vw;
     height:50vh;
     float:right;
 }
 
-#image:hover{
+.image:hover{
     animation: imageRotate;
     animation-duration: 5s;
     animation-iteration-count: 1;
@@ -162,7 +162,7 @@ h2{
         text-align:center;
     }
 
-    #image{
+    .image{
         float:none;
         height:50%;
     }

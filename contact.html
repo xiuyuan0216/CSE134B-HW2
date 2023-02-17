@@ -48,7 +48,7 @@
             Contact Form:
         </h2>
         <form>
-            <fieldset>
+            <fieldset id="personal">
                 <legend>Personal Information</legend>
                 <p>
                     <label>Name:</label>
@@ -62,7 +62,7 @@
             </fieldset>
 
             <br>
-            <fieldset>
+            <fieldset id="feedback">
                 <legend>Feedbacks</legend>
             <div>
                 <label>Opinion on this webpage:</label>
@@ -92,17 +92,17 @@
             <br>
 
             <div>
-                <label>Comments: </label>
-                <textarea rows="2">
-                </textarea>
+                <label>Comments:
+                <input type="text" name="comments">
+                </label>
             </div>
 
             </fieldset>
 
-            <fieldset>
+            <fieldset id="button-list">
                 <legend>Button: </legend>
-                <button type="submit"><svg height="10" width="20"></svg>submit<svg height="10" width="20"></svg></button>
-                <button type="reset"><svg height="10" width="20"></svg>clear<svg height="10" width="20"></svg></button>
+                <button type="submit" class="button">submit</button>
+                <button type="reset" class="button">clear</button>
             </fieldset>
         </form>
     </section>
